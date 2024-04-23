@@ -1,0 +1,117 @@
+body {
+    background-image: url('https://st3.depositphotos.com/20363444/35377/i/450/depositphotos_353776570-stock-photo-beautiful-beach-white-sand-blue.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white; /* Change text color to white */
+    font-size: 1.2em; /* Increase font size by 20% */
+    font-family: Algerian, sans-serif; /* Change font to Algerian */
+}
+a {
+    color: rgb(117, 26, 97); /* Change link color to purple */
+    font-weight: bold; /* Make link text bold */
+    font-size: 1.2em; /* Increase link font size by 20% */
+    font-family: Algerian, sans-serif; /* Change font to Algerian */
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 40px auto; /* Increase margin to space out images more */
+}
+h2 {
+    margin: 20px 0; /* Add margin above and below headings */
+    font-style: oblique;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+header, footer {
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: white; /* Change text color to white */
+    font-weight: bold; /* Make text bold */
+    font-family: Algerian, sans-serif; /* Change font to Algerian */
+    font-style: oblique;
+}
+h1 {
+    font-size: 3em; /* Increase font size for h1 */
+    margin-bottom: 20px; /* Add margin bottom to separate from nav */
+}
+ol, ul {
+    text-align: center; /* Center text inside ordered and unordered lists */
+}
+ol {
+    counter-reset: item;
+    padding-left: 0;
+    color: black; /* Set color of numbers to black */
+    font-size: x-large;
+
+}
+.destination {
+    text-align: center; /* Center text and images */
+    margin-bottom: 150px; /* Add margin bottom to space out images and headers */
+}
+.location-header {
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+    font-weight: bold; /* Make text bold */
+    font-size: 2em; /* Increase font size */
+    padding: 20px 0; /* Add padding */
+    margin: 20px 0; /* Add margin */
+    border-radius: 5px; /* Add border radius */
+    display: inline-block; /* Display as inline-block to fit content */
+}
+.location-header:before {
+    counter-increment: item;
+    content: counter(item);
+    font-size: 2em; /* Increase font size of ordered list number */
+    font-weight: bold; /* Make ordered list number bold */
+}
+.image-bullets {
+    text-align: left; /* Align bullets to the left */
+    font-size: 1.2em; /* Increase bullet font size */
+    margin-top: 20px; /* Add margin top */
+}
+.image-bullets li {
+    font-family: Algerian, sans-serif; /* Change font to Algerian */
+    color: black; /* Change bullet color to black */
+    font-weight: bold; /* Make bullet text bold */
+    margin-bottom: 10px; /* Add margin bottom */
+}
+#video h2, #graph h2, footer p {
+    color: black; /* Change color of specified headings and footer text */
+    font-weight: bold; /* Make specified headings and footer text bold */
+}
+.destination .location-header::before {
+    content: none; /* Remove numbering in front of location headers */
+}
+section {
+    margin-top: 100px; /* Add more margin top to significantly space out sections */
+}
+header {
+    margin-bottom: 100px; /* Add margin bottom to space out header from links */
+    position: relative; /* Enable positioning for the link */
+}
+.resume-link {
+    color: white;
+    font-size: 1.2em;
+    font-family: Algerian, sans-serif;
+    position: absolute;
+    top: 100px; /* Adjust top position */
+    right: 20px;
+    margin-top: 50px; /* Add more margin top */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.resume-link a {
+    text-decoration: underline;
+}
+.resume-link a:visited {
+    color: purple;
+}
